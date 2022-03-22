@@ -22,3 +22,16 @@ console.log(result);
 // Function #2 will take in 1 argument expected to be a string. The function will return true if -->
 // the string length is > 10 characters and false otherwise.
 
+function isLongEnough(newString){
+    if (newString.length >= 10){
+    return true;
+    }else if (newString.length < 10){
+        return false;
+    }else{
+        console.log("Error");
+    }
+}
+
+var newString = "Hello Hello Hello Hello"
+
+console.log(isLongEnough(newString));
