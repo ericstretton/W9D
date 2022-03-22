@@ -9,12 +9,9 @@ function math(num1, num2){
 }
 
 
+var num1 = 3215;
 
-
-
-var num1 = 2;
-
-var num2 = 13;
+var num2 = 99;
 
 var result = math(num1, num2);
 console.log(result);
@@ -35,3 +32,23 @@ function isLongEnough(newString){
 var newString = "Hello Hello Hello Hello"
 
 console.log(isLongEnough(newString));
+
+//Function #3 This function will take in 1 arg expected to be an array of strings.
+// The function will return the first element in the array that starts with "ph"
+
+
+function found(names){
+    var array1 = array1.startsWith;
+    if (array1.startsWith = "ph", 4){
+        return phFirstArray;
+    }else{
+        console.log("Error");
+    }
+}
+
+
+var array1 = [ "bob", "jeremy", "mary-jane", "phyllis", "timothy", "charlene"]
+
+// var phFirstArray =  array1.filter((names) => array1.startsWith("ph"));
+
+console.log(array1.startsWith);
