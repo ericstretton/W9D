@@ -39,7 +39,7 @@ console.log(isLongEnough(newString));
 
 function found(names){
     var array1 = array1.startsWith;
-    if (array1.startsWith = "ph", 4){
+    if (array1.startsWith = "ph"){
         return phFirstArray;
     }else{
         console.log("Error");
@@ -51,4 +51,6 @@ var array1 = [ "bob", "jeremy", "mary-jane", "phyllis", "timothy", "charlene"]
 
 // var phFirstArray =  array1.filter((names) => array1.startsWith("ph"));
 
-console.log(array1.startsWith);
+let startsWith = array1.startsWith("ph");
+
+console.log(startsWith);
